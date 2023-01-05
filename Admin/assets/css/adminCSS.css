@@ -1,0 +1,31 @@
+header.wallpaper {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("../img/logokurnia.png");
+    background: linear-gradient(to bottom, rgba(20, 0, 0, 0.5) 85%, rgba(20, 0, 0, 0.5) 85%), url("../img/logokurnia.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.wallpaper h1 {
+    font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+    .wallpaper {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 72px;
+        padding-bottom: 0;
+    }
+
+    header.wallpaper p {
+        font-size: 1.15rem;
+    }
+
+    header.wallpaper h1 {
+        font-size: 3rem;
+    }
+}
